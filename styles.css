@@ -139,11 +139,13 @@ main {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
+    scroll-snap-align: center;
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table--title {
+    margin-top: 10px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -259,6 +261,7 @@ main {
     width: 90%;
     min-width: 230px;
     max-width: 300px;
+    scroll-snap-align: center;
     height: 250px;
     margin: 0 auto;
 }
